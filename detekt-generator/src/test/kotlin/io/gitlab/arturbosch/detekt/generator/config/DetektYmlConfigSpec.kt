@@ -43,7 +43,6 @@ private val ruleSetsNamesToPackage: List<Pair<String, String>> = listOf(
     "comments" to "io.gitlab.arturbosch.detekt.rules.documentation",
     "empty-blocks" to "io.gitlab.arturbosch.detekt.rules.empty",
     "exceptions" to "io.gitlab.arturbosch.detekt.rules.exceptions",
-    "formatting" to "io.gitlab.arturbosch.detekt.formatting",
     "naming" to "io.gitlab.arturbosch.detekt.rules.naming",
     "performance" to "io.gitlab.arturbosch.detekt.rules.performance",
     "potential-bugs" to "io.gitlab.arturbosch.detekt.rules.bugs",
