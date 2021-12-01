@@ -16,7 +16,6 @@ dependencies {
     implementation(projects.detektUtils)
 
     testRuntimeOnly(projects.detektRules)
-    testRuntimeOnly(projects.detektFormatting)
     testRuntimeOnly(libs.spek.runner)
     testImplementation(projects.detektTest)
     testImplementation(testFixtures(projects.detektApi))
